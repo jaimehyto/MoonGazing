@@ -62,10 +62,10 @@ function draw() {
     for (var x = 0; x < img.width; x++) {
       
       let index = (x + y * img.width) * 4;
-      img.pixels[index] = random(255);
+      img.pixels[index] = img.pixels[index];
       img.pixels[index + 1] = img.pixels[index + 1];
       img.pixels[index + 2] = img.pixels[index + 2];
-      img.pixels[index + 3] = 200;
+      img.pixels[index + 3] = randAlpha;
     }
   }
 
