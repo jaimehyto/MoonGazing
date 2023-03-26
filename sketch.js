@@ -133,7 +133,7 @@ function pinch(){
 }
 
 function randomAlpha(){
-  let a = alpha(random(255),random(255),random(255));
+  let a = alpha(random(255));
   return a;
 }
 
